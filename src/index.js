@@ -8,12 +8,12 @@ window.addEventListener('resize', initCanvas, false);
 
 let canvas = document.getElementById("canvas");
 
-// get the circle module
+// import the circle module
 import { Circle } from './circle';
 
 function initCanvas() {
     
-    // set canvas to 100% height and width
+    // set canvas to 100% height and width offset by 30 pixels each
     canvas.width = window.innerWidth - 30;
     canvas.height = window.innerHeight - 30;
 
@@ -66,9 +66,6 @@ function initCanvas() {
 
             // draw current circle
             circle.drawCircle();
-
-            // draw current circle path
-            // circle.drawPath();
 
             // determine the direction the circle is to move 
             circle.upOrDown(); 

@@ -8,7 +8,7 @@ export class Circle {
         H = contextConfig.H;
         bounceRate = contextConfig.bounceRate;
 
-        // array to hold the circle path
+        // array to hold the circle's' path
         this.path = [];
 
         // circle attributes
