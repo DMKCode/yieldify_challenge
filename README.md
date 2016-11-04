@@ -3,9 +3,11 @@
 This is the source code for the yieldify challenge - Second Round.
 
 
+
 ### Install app dependencies
 
 1. Run `npm install` to install app dependencies.
+
 
 
 ### Running the code
@@ -20,12 +22,18 @@ The application uses webpack as the module bundler and webpack-dev-server as the
 
 1. Go to http://localhost:8080 or http://localhost:8080/webpack-dev-server/
 
+1. Click anywhere within the webpage to 'fire' the circles.
+
+
 
 ### Running the code without server
 
 1. Run `npm run build` to build the application to the 'dist' directory. 
 
 1. Open 'index.html' in the 'dist' directory directly into the browser.
+
+1. Click anywhere within the webpage to 'fire' the circles.
+
 
 
 ### Running the tests

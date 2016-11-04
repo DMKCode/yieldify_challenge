@@ -18,19 +18,19 @@ function initCanvas() {
     canvas.height = window.innerHeight - 30;
 
     // array to hold colours for the circles
-    var colours = ["black", "green", "blue"];
+    let colours = ["black", "green", "blue"];
     
     // array to hold the circles
-    var circles = [];
+    let circles = [];
 
     // get canvas context
-    var context = canvas.getContext("2d"),
+    let context = canvas.getContext("2d"),
         W = canvas.width, 
         H = canvas.height,
         
         // for controlling the circle bounce
         bounceRate = .4;
-
+    
     function clearCanvas() {
         context.clearRect(0, 0, W, H);
     }   
