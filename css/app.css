@@ -1,0 +1,48 @@
+canvas {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff9900;
+    background: #eee;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+    background: #ff9900;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 15px;
+}
+
+#top,
+#bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
